@@ -38,6 +38,7 @@ defmodule Smartfloor.Mixfile do
      {:phoenix_live_reload, "~> 1.0", only: :dev},
      {:gettext, "~> 0.11"},
      {:credo, "~> 0.5", only: [:dev, :test]},
+     {:dogma, "~> 0.1", only: [:dev]},
      {:cowboy, "~> 1.0"}]
   end
 
